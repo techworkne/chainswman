@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inconsolata:wght@700&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace;
+  background: url(https://images4.alphacoders.com/112/thumb-1920-1126211.jpg) center center/ cover;
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+h4 {
+  margin: 20px;
+}
+
+h3 {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1200px;
+  min-height: 700px;
+  border: 10px solid #fff;
+  margin: 0 auto;
+  background: #fff ;
+}
+
+.header {
+  display: flex;
+  height: 200px;
+}
+
+.title-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin-right: 10px;
+  font-size: 50px;
+  background: url(https://suzzy.ru/wp-content/uploads/2021/05/chelovek-benzopila.jpg)
+    no-repeat center center/ cover;
+  color: #fff;
+}
+
+.title-block::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.userpic {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background: url(https://pikuco.ru/upload/test_stable/124/124743faafa2b9fb305d2f86fb789446.jpg)
+    no-repeat center center/ cover;
+}
+
+.navigation ul {
+  display: flex;
+  background: rgba(25, 58, 204, 0.863);
+  margin-top: 10px;
+}
+
+.navigation li a {
+  display: flex;
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(223, 215, 215);
+  font-size: 20px;
+  font-weight: bold;
+  border-right: 2px solid rgb(223, 215, 215);
+}
+
+.navigation li a:hover {
+  background: rgba(21, 46, 156, 0.822);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  font-size: larger;
+  width: 70%;
+  padding: 20px;
+}
+
+.content p {
+  line-height: 20px;
+}
+
+.sidebar {
+  padding: 20px;
+  width: 30%;
+}
+
+.works li {
+  padding: 20px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.works li:hover {
+  transform: translateX(10px);
+}
+
+.works {
+  color: #fff;
+  font-size: 20px;
+}
+
+.works ul {
+  display: flex;
+  background: rgba(25, 58, 204, 0.863);
+}
+
+.info ul {
+  display: flex;
+  background: rgba(25, 58, 204, 0.863);
+}
+
+.info li {
+  padding: 20px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.info {
+  background: url(https://oir.mobi/uploads/posts/2021-03/1616967394_7-p-fon-bumaga-10.jpg)
+    center center/ cover;
+  font-size: 25px;
+}
+
+.info ::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.info li :hover {
+  transform: translateX(10px);
+}
+
+.author {
+  font-size: large;
+  width: 80%;
+  padding: 20px;
+}
+
+.author p {
+  line-height: 25px;
+}
+
+.sidebar ul {
+  border: 5px solid rgba(69, 156, 255, 0.836);
+  background: rgba(68, 150, 245, 0.76);
+  margin: 10px;
+}
+
+.sidebar li a {
+  display: flex;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+
+.boxhead {
+  margin-right: 15px;
+}
+
+.main {
+  font-size: large;
+  width: 80%;
+  padding: 20px;
+}
