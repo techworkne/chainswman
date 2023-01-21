@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inconsolata:wght@700&display=swap");
 
+html{
+  font-size: 10px;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   background: url(https://images4.alphacoders.com/112/thumb-1920-1126211.jpg) center center/ cover;
   color: #fff;
+  font-size: 10px;
   padding-top: 10px;
 }
 
@@ -19,34 +24,34 @@ a::hover{
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: bolder;
-  margin: 10px;
-  margin-left: 10px;
+  margin: 1rem;
+  margin-left: 1rem;
 }
 
 h4 {
-  margin: 20px;
+  margin: 2rem;
 }
 
 h3 {
-  padding: 20px 0;
-  font-size: 32px;
+  padding: 2rem 0;
+  font-size: 3.2rem;
   font-weight: bold;
 }
 
 .container {
-  width: 1200px;
-  min-height: 700px;
+  width: 120rem;
+  min-height: 70rem;
   margin: 0 auto;
   background: #002a8fe6;
 }
 
 .header {
   box-sizing: border-box;
-  padding: 10px 31px;
+  padding: 1rem 3.2rem;
   display: flex;
-  height: 200px;
+  height: 20rem;
 }
 
 .title-block {
@@ -57,8 +62,8 @@ h3 {
   display: flex;
   width: 80%;
   height: 100%;
-  margin-right: 10px;
-  font-size: 50px;
+  margin-right: 1rem;
+  font-size: 5rem;
   background: url(https://suzzy.ru/wp-content/uploads/2021/05/chelovek-benzopila.jpg)
     no-repeat center center/ cover;
   color: #fff;
@@ -82,30 +87,30 @@ h3 {
 
 .userpic {
   display: flex;
-  width: 18%;
+  width: 20%;
   height: 100%;
   background: url(https://pikuco.ru/upload/test_stable/124/124743faafa2b9fb305d2f86fb789446.jpg)
     no-repeat center center/ cover;
 }
 
 .navigation {
-  margin: 0 30px;
+  margin: 0 3rem;
 }
 
 .navigation ul {
   display: flex;
   background: rgba(25, 58, 204, 0.863);
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .navigation li a {
   display: flex;
-  padding: 15px;
+  padding: 1.5rem;
   text-decoration: none;
   color: rgb(223, 215, 215);
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  border-right: 2px solid rgb(223, 215, 215);
+  border-right: .2rem solid rgb(223, 215, 215);
 }
 
 .navigation li a:hover {
@@ -119,20 +124,20 @@ h3 {
 .content {
   font-size: larger;
   width: 70%;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .content p {
-  line-height: 30px;
+  line-height: 3rem;
 }
 
 .sidebar {
-  padding: 20px;
+  padding: 2rem;
   width: 30%;
 }
 
 .works li {
-  padding: 20px;
+  padding: 2rem;
   transition: transform 0.5s ease;
   cursor: pointer;
 }
@@ -143,7 +148,7 @@ h3 {
 
 .works {
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .works ul {
@@ -157,7 +162,7 @@ h3 {
 }
 
 .info li {
-  padding: 20px;
+  padding: 2rem;
   transition: transform 0.5s ease;
   cursor: pointer;
 }
@@ -165,7 +170,7 @@ h3 {
 .info {
   background: url(https://oir.mobi/uploads/posts/2021-03/1616967394_7-p-fon-bumaga-10.jpg)
     center center/ cover;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 .info ::after {
@@ -184,35 +189,35 @@ h3 {
 .author {
   font-size: large;
   width: 80%;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .author p {
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 
 .sidebar ul {
   border: 5px solid rgba(69, 156, 255, 0.836);
   background: rgba(68, 150, 245, 0.76);
-  margin: 10px;
+  margin: 1rem;
 }
 
 .sidebar li a {
   display: flex;
-  padding: 15px;
+  padding: 1.5rem;
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   border: 2px solid #fff;
 }
 
 .boxhead {
-  margin-right: 15px;
+  margin-right: 1rem;
 }
 
 .main {
   font-size: large;
   width: 80%;
-  padding: 20px;
+  padding: 2rem;
 }
