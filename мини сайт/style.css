@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inconsolata:wght@700&display=swap');
 body {
-    font-family: 'Inconsolata', monospace;
-  background: url(https://www.meme-arsenal.com/memes/a7b8dff78f8e331d7fd96a360c9f0e63.jpg) center center/ cover;
+  font-family: 'Inconsolata', monospace;
+  background-color: #aaa;
   padding: 100px 0;
 }
 

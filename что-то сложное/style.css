@@ -3,7 +3,18 @@
 body {
   font-family: "Inconsolata", monospace;
   background: url(https://images4.alphacoders.com/112/thumb-1920-1126211.jpg) center center/ cover;
-  padding: 100px 0;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+a::after{
+  color: #000;
+  text-decoration: none;
 }
 
 h2 {
@@ -26,9 +37,8 @@ h3 {
 .container {
   width: 1200px;
   min-height: 700px;
-  border: 10px solid #fff;
   margin: 0 auto;
-  background: #fff ;
+  background: #002a8fe6;
 }
 
 .header {
